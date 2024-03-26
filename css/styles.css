@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    gap: 20px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.drawing-info {
+    font-size: 48px;
+    color: white;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.resolution-info {
+    margin-top: 20px;
+}
+
+button {
+    background-color: orange;
+    font-size: 36px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.sketch-container {
+    display: flex;
+    height: 960px;
+    width: 960px;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.grid-row {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 960px;
+}
+
+.grid-element {
+    border: 0.1px solid green;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
